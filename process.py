@@ -43,7 +43,7 @@ model = NERModel('bert', 'bert-base-cased',labels=label,args =args, use_cuda= Fa
 
 # result, model_outputs, preds_list = model.eval_model(test_data)
 
-prediction, model_output = model.predict(["කැලණිය"])
+prediction, model_output = model.predict(["ආසියානු ක්‍රිකට් ශුර ශ්‍රී ලංකා කණ්ඩායම සහ සත්කාරක ඉන්දීය කණ්ඩායම"])
 
 print(prediction)
 
