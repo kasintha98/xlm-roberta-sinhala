@@ -3,7 +3,8 @@ from get_configs import Configs
 
 label = Configs.get_labels()
 args = Configs.get_args()
-model = NERModel('bert', 'bert-base-cased', labels=label, args=args, use_cuda=False)
+# model = NERModel('bert', 'bert-base-cased', labels=label, args=args, use_cuda=False)
+model = NERModel('xlmroberta', 'xlm-roberta-base', labels=label, args=args, use_cuda=False)
 
 
 class ExtractEntities:
