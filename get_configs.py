@@ -9,7 +9,7 @@ class Configs:
     @staticmethod
     def get_args():
         args = NERArgs()
-        args.num_train_epochs = 1
+        args.num_train_epochs = 5
         args.learning_rate = 1e-4
         args.overwrite_output_dir = True
         args.train_batch_size = 32
